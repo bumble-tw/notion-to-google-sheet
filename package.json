@@ -1,0 +1,28 @@
+{
+  "name": "notion-to-google-sheet",
+  "version": "1.0.0",
+  "description": "export notion database list and page detail to google sheet ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --env-file .env index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick1092387456/notion-to-google-sheet.git"
+  },
+  "keywords": [
+    "notion",
+    "google",
+    "sheet"
+  ],
+  "author": "Bumble-TW",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nick1092387456/notion-to-google-sheet/issues"
+  },
+  "homepage": "https://github.com/nick1092387456/notion-to-google-sheet#readme",
+  "dependencies": {
+    "googleapis": "^140.0.1"
+  }
+}
